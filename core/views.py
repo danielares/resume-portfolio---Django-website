@@ -6,3 +6,6 @@ class IndexView(TemplateView):
     
 class TwCompView(TemplateView):
     template_name = 'twcomp.html'
+    
+class TodoWickView(TemplateView):
+    template_name = 'todo-wick.html'
