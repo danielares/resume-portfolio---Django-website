@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.views.generic import TemplateView
 
 class IndexView(TemplateView):
@@ -9,3 +8,4 @@ class TwCompView(TemplateView):
     
 class TodoWickView(TemplateView):
     template_name = 'todo-wick.html'
+    
