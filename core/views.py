@@ -9,3 +9,6 @@ class TwCompView(TemplateView):
 class TodoWickView(TemplateView):
     template_name = 'todo-wick.html'
     
+class SimpleChatView(TemplateView):
+    template_name = 'simple-chat.html'
+    
